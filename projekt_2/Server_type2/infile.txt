@@ -1,0 +1,6 @@
+#Opis zasobow dla sewera typu 2
++ sOpening,status,D3   # input 0=OPEN, 1=CLOSED
+
+#test
+:  0, sOpening, 1
+#::

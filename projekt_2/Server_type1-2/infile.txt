@@ -1,0 +1,26 @@
+#Opis zasobow dla Server type 1.2
++ qTemperature,quantity,Z2    # input 0=-10 1023=+20
++ sOpening,status,D13        # input 0=OPEN, 1=CLOSED
+
+#TEST
+: 0, sOpening, 0
+: 10, qTemperature, 0
+: 750000, qTemperature, 10
+: 20000000, qTemperature, 100
+: 30000000, qTemperature, 200
+: 40000000, qTemperature, 150
+: 50000000, qTemperature, 250
+: 60000000, qTemperature, 500
+: 70000000, qTemperature, 510
+: 80000000, qTemperature, 460
+: 90000000, qTemperature, 300
+: 100000000, qTemperature, 100
+: 110000000, qTemperature, 300
+: 120000000, qTemperature, 510
+: 130000000, qTemperature, 754
+: 140000000, qTemperature, 400
+: 150000000, qTemperature, 100
+: 160000000, qTemperature, 100
+: 170000000, sOpening, 1
+# Koniec testu
+#::
